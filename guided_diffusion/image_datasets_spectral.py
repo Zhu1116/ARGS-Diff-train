@@ -14,7 +14,7 @@ def load_data(
 ):
     if not data_dir:
         raise ValueError("unspecified data directory")
-    image_path = data_dir + '/' + data_type + '_gaussian.mat'
+    image_path = data_dir + '/' + data_type + '.mat'
     dataset = ImageDataset(image_path)
     if deterministic:
         loader = DataLoader(
