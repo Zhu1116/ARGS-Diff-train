@@ -57,7 +57,7 @@ python spectral_train.py
 3. Run:
 
    ```bash
-   python sample_subspace.py
+   python spatial_train.py
    ```
 
 #### Train the Spectral Network
